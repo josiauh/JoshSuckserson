@@ -5,10 +5,8 @@ import os
 import sys
 
 if "--help" in sys.argv or "-h" in sys.argv:
-    print(f"""
-          Usage: {sys.argv[0]} [directory] [knm file]
-          Zips a whole directory to a knm file.
-    """)
+    print(f"""Usage: {sys.argv[0]} [directory] [knm file]
+Zips a whole directory to a knm file.""")
     exit(0)
 
 if len(sys.argv) < 3:
